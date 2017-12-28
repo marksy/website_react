@@ -18,7 +18,7 @@ class Work extends React.Component {
         {
           Object
             .keys(this.state.jobs)
-            .map(key => <Job key={key} details={this.state.jobs[key]} />)
+            .map(key => <Job key={key} details={this.state.jobs[key]} />).reverse()
         }
         </ul>
       </div>
