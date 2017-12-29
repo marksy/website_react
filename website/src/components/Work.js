@@ -1,6 +1,6 @@
 import React from 'react'
 import Job from './Job'
-import jobs from './jobs'
+import jobs from '../jobs'
 
 class Work extends React.Component {
   constructor() {
