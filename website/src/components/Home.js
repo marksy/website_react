@@ -22,14 +22,16 @@ class Home extends React.Component {
   mattjames() {
     counter += 1;
     if (counter === 7) {
-      this.setState({
+      this.setState((prevState) => ({
         mattjamesishere: true,
         name: 'Matt James'
-      });
+
+      }));
     }
   }
 
   hideMattjames() {
+    counter = 0;
     this.setState(initialState);
   }
 

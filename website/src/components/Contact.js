@@ -18,12 +18,6 @@ const Contact = () => {
             </a>
           </li>
       		<li>
-            <a href='https://twitter.com/marksy' target='_blank' rel='noopener noreferrer'>
-              <p>twitter</p>
-              <i className='fa fa-twitter fa-4x'></i>
-            </a>
-          </li>
-      		<li>
             <a href='https://github.com/marksy' target='_blank' rel='noopener noreferrer'>
               <p>github</p>
               <i className='fa fa-github fa-4x'></i>
@@ -33,12 +27,6 @@ const Contact = () => {
             <a href='https://www.linkedin.com/profile/view?id=AAMAAADE4JIBy_iDM7Qyr0OkeQFVg6Fgk0HD9fg&amp;trk=hp-identity-photo' target='_blank' rel='noopener noreferrer'>
               <p>linkedIn</p>
               <i className='fa fa-linkedin fa-4x'></i>
-            </a>
-          </li>
-      		<li>
-            <a href='https://last.fm/user/mmv7' target='_blank' rel='noopener noreferrer'>
-              <p>last.fm</p>
-              <i className='fa fa-lastfm fa-4x'></i>
             </a>
           </li>
       	</ul>
