@@ -52,7 +52,7 @@ const jobs = {
   },
   1514922683334: {
     name: 'Potato',
-    date: 'Dec 2017 - present',
+    date: 'Dec 2017 - Jan 2018',
     desc: 'Lorem'
   }
 };

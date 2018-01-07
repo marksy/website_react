@@ -37,7 +37,7 @@ class Home extends React.Component {
 
   render() {
     return (
-      <section className={this.state.mattjamesishere ? 'mattjamesishere' : ''}>
+      <section className={this.state.mattjamesishere ? 'mattjamesishere home' : 'home'}>
         <div className='hero'>
           <p className='noselect'>
             Hullo. My name is <span onClick={this.mattjames}>{this.state.name}.</span><br/> I'm a Freelance UI Developer in London.
