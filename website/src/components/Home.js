@@ -11,12 +11,12 @@ let counter = 0
 
 class Home extends React.Component {
   constructor() {
-      super()
+    super()
 
-      this.state = initialState
+    this.state = initialState
 
-      this.mattjames = this.mattjames.bind(this)
-      this.hideMattjames = this.hideMattjames.bind(this)
+    this.mattjames = this.mattjames.bind(this)
+    this.hideMattjames = this.hideMattjames.bind(this)
   }
 
   mattjames() {
@@ -25,7 +25,6 @@ class Home extends React.Component {
       this.setState((prevState) => ({
         mattjamesishere: true,
         name: 'Matt James'
-
       }));
     }
   }

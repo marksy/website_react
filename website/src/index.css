@@ -579,3 +579,12 @@ nav {
 .validation__error {
   color: #ff0000;
 }
+
+.beerLine {
+  opacity: .8;
+  transition: opacity 333ms;
+}
+
+.beerLine:hover {
+  opacity: 1 !important;
+}
