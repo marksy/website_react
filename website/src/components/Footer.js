@@ -2,7 +2,7 @@ import React from 'react'
 
 const dateYear = new Date().getFullYear();
 
-let day = 0;
+// let day = 0;
 
 function beerOclock(beerDay) {
   const moment = require('moment');

@@ -1,4 +1,6 @@
 import React from 'react'
+import { Spinner } from '@govuk-react/icons'
+
 import Job from './Job'
 import jobs from '../jobs'
 import base from '../base'
@@ -44,9 +46,11 @@ class Work extends React.Component {
       <div className="work">
         <ul>
         {
+          Object.keys(this.state.jobs).length > 0 ?
           Object
             .keys(this.state.jobs)
-            .map(key => <Job key={key} details={this.state.jobs[key]} />).reverse()
+            .map(key => <Job key={key} details={this.state.jobs[key]} />).reverse() :
+          <li><Spinner width="54px" title="loading" /></li>
         }
         </ul>
         {/*<button onClick={this.loadSamples}>Load Sample</button>
