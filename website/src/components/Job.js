@@ -6,6 +6,7 @@ class Job extends React.Component {
       <li>
         <h2>{this.props.details.name}</h2>
         <p className='date'>{this.props.details.date}</p>
+        {/*}<p className='desc'>{this.props.details.desc}</p>*/}
       </li>
     )
   }

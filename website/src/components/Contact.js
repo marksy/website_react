@@ -6,7 +6,7 @@ const Contact = () => {
         <p>You can connect with me via the following:</p>
         <ul className='social-links'>
           <li>
-            <a href='tel:+447936561301'>
+            <a href='tel:+64276491914'>
               <p>phone</p>
               <i className='fa fa-phone fa-4x'></i>
             </a>

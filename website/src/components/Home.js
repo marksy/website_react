@@ -36,15 +36,15 @@ class Home extends React.Component {
 
   render() {
     return (
-      <section className={this.state.mattjamesishere ? 'mattjamesishere home' : 'home'}>
+      <section className='home'>
         <div className='hero'>
           <p className='noselect'>
-            Hullo. My name is <span onClick={this.mattjames}>{this.state.name}.</span><br/> I'm a Freelance UI Developer in London.
+            Hullo. My name is {this.state.name}.<br/> I'm a Front End Developer in Wellington, NZ.
           </p>
         </div>
     	  <div className='profile'>
     	  	<img src={profileImage} id='profpic' alt=''/>
-    		  <img src={dealwithit} onClick={this.hideMattjames} className='dealwithit' alt=''/>
+    		  <img src={dealwithit} className='dealwithit' alt=''/>
     	  </div>
       </section>
     )
