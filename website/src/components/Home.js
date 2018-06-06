@@ -5,7 +5,7 @@ const Home = () => (
   <section className='home'>
     <div className='hero'>
       <p className='noselect'>
-        Hullo. My name is Mark Chambers.<br/> I'm a UI Developer in Wellington, NZ.
+        Hullo. My name is Mark Chambers.<br/> I’m a UI Developer in Wellington, NZ.
       </p>
     </div>
 	  <div className='profile'>
